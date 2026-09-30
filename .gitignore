@@ -1,0 +1,20 @@
+*.iml
+.gradle
+
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# IDE — ignore entirely; regenerates per machine
+.idea/
+
+# Kotlin build sessions
+.kotlin
+
+# Signing — must never reach git
+*.jks
+*.keystore
+keystore.properties
